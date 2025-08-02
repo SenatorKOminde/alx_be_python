@@ -4,7 +4,7 @@ def main():
     account = BankAccount(250)
     account.deposit(67.0)
     account.withdraw(50.0)
-    account.withdraw(300.0)  # This should trigger "Insufficient funds."
+    account.withdraw(300.0)
     account.display_balance()
 
 if __name__ == "__main__":
